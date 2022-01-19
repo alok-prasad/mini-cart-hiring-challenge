@@ -1,0 +1,50 @@
+.products_container {
+  position: relative;
+  top: 15em;
+  left: 20em;
+  z-index: 1000;
+  width: 50%;
+}
+
+.product {
+  margin: 0.5em;
+  padding: 0.5em;
+  border: 1px solid;
+  border-style: dotted;
+  border-radius: 5px;
+  width: 110%;
+  background-color: whitesmoke;
+}
+
+.product img {
+  margin: 0.5em;
+  display: inline-block;
+  margin-right: 1em;
+  vertical-align: super;
+}
+
+.product div {
+  display: inline-block;
+  margin: 0 1em;
+}
+
+.product div button {
+  margin: 0 0.75em;
+  border: 0;
+  background: transparent;
+  vertical-align: super;
+}
+
+.product div button i {
+  font-size: small;
+  cursor: pointer;
+}
+
+.product div input {
+  width: 30px;
+  vertical-align: super;
+}
+
+.product div span {
+  vertical-align: super;
+}

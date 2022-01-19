@@ -1,0 +1,23 @@
+{
+  "name": "react-qgv6em",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.24.0",
+    "primeicons": "^5.0.0",
+    "primereact": "^7.1.0",
+    "prop-types": "^15.6.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-transition-group": "^4.4.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "react-scripts": "latest"
+  }
+}

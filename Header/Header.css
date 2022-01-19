@@ -1,0 +1,84 @@
+.top_header {
+  height: 70px;
+  position: fixed;
+  width: 98%;
+  margin: 0.5em 0;
+  margin-left: 0.5em;
+  padding: 0.5em;
+}
+
+.card {
+  background-color: whitesmoke;
+  box-shadow: 0 0 4px rgb(0 0 0 / 25%);
+  border-bottom: 8px solid var(--surface-d);
+}
+
+.cart_icon {
+  float: right;
+  margin: 0.5em;
+}
+
+.cart_icon i {
+  font-size: 2em;
+  vertical-align: bottom;
+}
+
+.app_name {
+  display: inline;
+  margin: 0.25em;
+}
+
+.cart_details {
+  float: right;
+  margin-top: 0.3em;
+  cursor: pointer;
+}
+
+.cart_details .pi {
+  font-size: 0.75em;
+}
+
+.cart_items {
+  background-color: lightblue;
+  max-height: 150px;
+  position: fixed;
+  right: 4em;
+  margin-top: 1em;
+  border-radius: 5px;
+  width: 250px;
+  z-index: 2000;
+}
+
+.cart_items ul {
+  padding: 0.5em;
+  margin: 0;
+}
+
+.cart_items ul li {
+  list-style-type: none;
+  border-bottom: 3px solid gray;
+  padding: 0.5em;
+  padding-top: 1em;
+  cursor: initial;
+  margin: 0.5em;
+}
+
+.cart_items ul li .pi {
+  margin-right: 1em;
+  cursor: pointer;
+  vertical-align: top;
+  color: white;
+}
+
+.cart_item_details {
+  display: inline-block;
+  margin-top: -5px;
+  margin-left: 10px;
+}
+
+.cart_items ul li .item_quantity {
+  position: fixed;
+  font-size: 0.75em;
+  margin-top: -20px;
+  margin-left: 90px;
+}
